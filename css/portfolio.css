@@ -170,9 +170,88 @@ ul li{
     color: var(--Dark-01, #181818);
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 100px;
  }
  .son-of-Resume{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
  }
+
+ /* A summery of my resume */
+ .my-education{
+    color: var(--Dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+ }
+ .in-computer{
+    color: var(--Dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+ }
+ .h3-har{
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+ }
+ .list-skill{
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+ }
+
+ hr{
+    width: 85%;
+ }
+ .button{
+    margin: 70px 100px;
+    /* justify-content: center; */
+    text-align: center;
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    color: var(--White-Color, #FFF);
+    border: none;
+ }
+
+ /* footer er kaj */
+ .connect{
+   color: var(--Dark-01, #181818);
+   text-align: center;
+   font-size: 35px;
+   font-weight: 700;
+   display: flex;
+ }
+ .para{
+   color: var(--Dark-02, #474747);
+   font-size: 16px;
+   font-weight: 400;
+ }
+.message{
+   list-style: none;
+   align-items: center;
+}
+.name{
+   color: var(--Dark-03, #757575);
+   font-size: 16px;
+   font-weight: 400;
+   border-radius: 5px;
+   background: var(--White-Color, #FFF);
+   height: 64px;
+
+}
+.nam{
+   color: var(--Dark-03, #757575);
+   font-size: 16px;
+   font-weight: 400;
+   width: 461px;
+   height: 180px;
+   background: var(--White-Color, #FFF);
+}
