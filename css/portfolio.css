@@ -206,10 +206,12 @@ ul li{
  }
 
  hr{
-    width: 85%;
+    width: 90%;
+    background: #D1D1D1;
+    margin: 30px 0px;
  }
  .button{
-    margin: 70px 100px;
+    margin:  30px 0px;
     /* justify-content: center; */
     text-align: center;
     width: 200px;
@@ -217,41 +219,80 @@ ul li{
     border-radius: 5px;
     background: #FD6E0A;
     font-size: 20px;
+    font-weight: 700;
     color: var(--White-Color, #FFF);
     border: none;
  }
 
  /* footer er kaj */
+ .bg{
+   padding: 100px 50px 100px 200px;
+   /* padding: 130px 200px; */
+   /* width: 1600px; */
+   /* height: 580px; */
+   background: #FFF8F3;
+   display: flex;
+   margin-top: 100px;
+   justify-content: space-between;
+ }
  .connect{
    color: var(--Dark-01, #181818);
-   text-align: center;
+   /* text-align: center; */
    font-size: 35px;
    font-weight: 700;
    display: flex;
+   margin-bottom: 25px;
+   
  }
  .para{
    color: var(--Dark-02, #474747);
    font-size: 16px;
-   font-weight: 400;
+   margin-bottom: 20px;
+   /* font-weight: 400; */
+   /* margin: 20px; */
  }
 .message{
    list-style: none;
-   align-items: center;
+}
+.div2{
+   padding-left: 1600px 180px;
+}
+.button2{
+   width: 150px;
+   height: 64px;
+   border-radius: 5px;
+   background: #FD6E0A;
+   border: none;
+   color: var(--White-Color, #FFF);
+   /* text-align: center; */
+   font-size: 20px;
+   font-weight: 700;
+   margin-top: 30px;
+}
+.input-eria{
+   display: flex;
+   flex-direction: column;
 }
 .name{
-   color: var(--Dark-03, #757575);
-   font-size: 16px;
-   font-weight: 400;
-   border-radius: 5px;
-   background: var(--White-Color, #FFF);
+   width: 461px;
    height: 64px;
-
-}
-.nam{
+   border-radius: 5px;
+   border: none;
+   background: var(--White-Color, #FFF);
    color: var(--Dark-03, #757575);
    font-size: 16px;
    font-weight: 400;
+   margin-bottom: 20px;
+   padding: 15px 30px;
+}
+.message{
    width: 461px;
    height: 180px;
+   border-radius: 5px;
+   border: none;
    background: var(--White-Color, #FFF);
+   color: var(--Dark-03, #757575);
+   font-size: 16px;
+   font-weight: 400;
+   padding: 15px 30px;
 }
